@@ -12953,11 +12953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gcerqueira\\Desktop\\igor\\Atividade_Garagem\\Atividade_Garagem\\Atividade_Garagem.csproj",
+      "projectUniqueName": "C:\\Users\\gcerqueira\\Desktop\\API_-Learnig-ASPCore2.2\\Atividade_Garagem\\Atividade_Garagem\\Atividade_Garagem.csproj",
       "projectName": "Atividade_Garagem",
-      "projectPath": "C:\\Users\\gcerqueira\\Desktop\\igor\\Atividade_Garagem\\Atividade_Garagem\\Atividade_Garagem.csproj",
+      "projectPath": "C:\\Users\\gcerqueira\\Desktop\\API_-Learnig-ASPCore2.2\\Atividade_Garagem\\Atividade_Garagem\\Atividade_Garagem.csproj",
       "packagesPath": "C:\\Users\\gcerqueira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gcerqueira\\Desktop\\igor\\Atividade_Garagem\\Atividade_Garagem\\obj\\",
+      "outputPath": "C:\\Users\\gcerqueira\\Desktop\\API_-Learnig-ASPCore2.2\\Atividade_Garagem\\Atividade_Garagem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

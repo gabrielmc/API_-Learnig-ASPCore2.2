@@ -40,3 +40,17 @@ C:\Users\gcerqueira\Desktop\igor\Atividade_Garagem\Atividade_Garagem\obj\Debug\n
 C:\Users\gcerqueira\Desktop\igor\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.RazorTargetAssemblyInfo.cache
 C:\Users\gcerqueira\Desktop\igor\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.dll
 C:\Users\gcerqueira\Desktop\igor\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.pdb
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.csproj.CoreCompileInputs.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.RazorAssemblyInfo.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.RazorAssemblyInfo.cs
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.AssemblyInfoInputs.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.AssemblyInfo.cs
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.dll
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.pdb
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Garagem.deps.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Garagem.runtimeconfig.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Garagem.runtimeconfig.dev.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Garagem.dll
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Garagem.pdb
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.RazorTargetAssemblyInfo.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Garagem\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Garagem.csprojAssemblyReference.cache
