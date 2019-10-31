@@ -35,6 +35,16 @@ namespace Atividade_Garagem.Business.implementacoes
             return await _repository.FindById(id);
         }
 
+        public async Task<Cliente> FindByCPF(string cpf)
+        {
+            return await _repository.FindByCPF(cpf);
+        }
+
+        public async Task<Cliente> FindByName(string name)
+        {
+            return await _repository.FindByName(name);
+        }
+
         public async Task<Cliente> Update(Cliente obj)
         {
             return await _repository.Update(obj);

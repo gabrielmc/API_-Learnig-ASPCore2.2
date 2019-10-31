@@ -6,10 +6,11 @@ namespace Atividade_Garagem.Business.interfaces
 {
     public interface IServicoBusiness
     {
+        Task<Servico> FindByIdWithCliente(int id);
+        Task<ICollection<Servico>> FindAll();
         Task<Servico> Create(Servico obj);
         Task<Servico> Update(Servico obj);
         Task<Servico> FindById(int id);
-        Task<ICollection<Servico>> FindAll();
         Task Delete(int id);
     }
 }

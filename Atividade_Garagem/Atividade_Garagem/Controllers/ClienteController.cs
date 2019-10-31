@@ -38,7 +38,7 @@ namespace Atividade_Garagem.Controllers
         }
 
         [HttpGet("{id}", Name = "GetByIdCliente")]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> GetById(string id)
         {
             try
             {
@@ -49,6 +49,44 @@ namespace Atividade_Garagem.Controllers
                 if (newcliente == null)
                     return NotFound();
                 return Ok(newcliente);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message}");
+            }
+        }
+
+        [HttpGet("nome/{name}", Name = "GetByName")]
+        public async Task<IActionResult> GetByName(string name)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(name.Trim() ))
+                    return BadRequest("Nome não informado !");
+
+                var cliente = await _clienteBusiness.FindByName(name);
+                if (cliente == null)
+                    return NotFound("Nome não encontrado na base !");
+                return Ok(cliente);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message}");
+            }
+        }
+
+        [HttpGet("cpf/{cpf}", Name = "GetByCPF")]
+        public async Task<IActionResult> GetByCPF(string cpf)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(cpf.Trim()))
+                    return BadRequest("CPF não informado !");
+
+                var cliente = await _clienteBusiness.FindByCPF(cpf.Trim());
+                if (cliente == null)
+                    return NotFound("CPF não encontrado na base !");
+                return Ok(cliente);
             }
             catch (Exception ex)
             {

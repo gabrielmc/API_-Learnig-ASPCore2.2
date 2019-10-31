@@ -1,6 +1,9 @@
-﻿using Atividade_Garagem.Context;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using Atividade_Garagem.Context;
 using Atividade_Garagem.Models;
 using Atividade_Garagem.Repository.interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace Atividade_Garagem.Repository.implementacoes
 {
@@ -8,5 +11,18 @@ namespace Atividade_Garagem.Repository.implementacoes
     {
         public ClienteRepository(ExemploContext context) : base(context) { }
 
+        public async Task<Cliente> FindByCPF(string CPF)
+        {
+            return await _context.Cliente
+                .Where(cli => cli.CPF.Equals(CPF))
+                .SingleOrDefaultAsync();
+        }
+
+        public async Task<Cliente> FindByName(string Name)
+        {
+            return await _context.Cliente
+                .Where(cli => cli.Nome.Equals(Name))
+                .SingleOrDefaultAsync();
+        }
     }
 }

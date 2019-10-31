@@ -35,6 +35,11 @@ namespace Atividade_Garagem.Business.implementacoes
             return await _repository.FindById(id);
         }
 
+        public async Task<Servico> FindByIdWithCliente(int id)
+        {
+            return await _repository.FindByIdWithCliente(id);
+        }
+
         public async Task<Servico> Update(Servico obj)
         {
             return await _repository.Update(obj);

@@ -56,6 +56,26 @@ namespace Atividade_Garagem.Controllers
                 return BadRequest($"{ex.Message}");
             }
         }
+
+        [HttpGet("cliente/{id}", Name = "GetByIdServicoCliente")]
+        public async Task<IActionResult> GetServicoCliente(int id)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(Convert.ToString(id)) )
+                    return BadRequest("Id inválido");
+
+                var servico = await _servicoBusiness.FindByIdWithCliente(id);
+                if (servico == null)
+                    return NotFound("Serviço não encontrado");
+
+                return Ok(servico);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message}");
+            }
+        }
         #endregion
 
         #region POST
