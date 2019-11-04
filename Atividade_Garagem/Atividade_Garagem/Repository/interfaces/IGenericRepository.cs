@@ -8,7 +8,7 @@ namespace Atividade_Garagem.Repository.interfaces
     {
         Task<T> Create(T item);
         Task<T> Update(T item);
-        Task Delete(int id);
+        Task<T> Delete(int id);
         Task<ICollection<T>> FindAll();
         Task<T> FindById(int id);
     }

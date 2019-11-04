@@ -4,6 +4,7 @@ using Atividade_Garagem.Repository.interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Threading.Tasks;
 
 namespace Atividade_Garagem.Repository.implementacoes
@@ -21,22 +22,39 @@ namespace Atividade_Garagem.Repository.implementacoes
 
         public virtual async Task<T> Create(T item)
         {
-            dataset.Add(item);
-            await _context.SaveChangesAsync();
-            return item;
+            try
+            {
+                dataset.Add(item);
+                await _context.SaveChangesAsync();
+                return item;
+            }
+            catch (DbUpdateException ex)
+            {
+                if (ex.InnerException is SqlException sqlException)
+                {
+                    int codigoErro = sqlException.Number;
+                    if (codigoErro.Equals(2627) || codigoErro.Equals(2601))
+                        throw new InvalidOperationException("O recurso já existe!");
+                    if (codigoErro.Equals(547))
+                        throw new InvalidOperationException("Chave Estrangeira inválida! ");
+                }
+                throw ex;
+            }
         }
 
-        public async Task Delete(int id)
+        public async Task<T> Delete(int id)
         {
             var resultado = await dataset.SingleOrDefaultAsync(i => i.Id.Equals(id));
             try
             {
                 if (resultado == null)
-                    throw new Exception("Não existe este item");
-                dataset.Remove(resultado);
+                    throw new Exception("O recurso não foi encontrado para exclusão");
+
+                _context.Entry(resultado).State = EntityState.Deleted;
                 await _context.SaveChangesAsync();
+                return resultado;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
