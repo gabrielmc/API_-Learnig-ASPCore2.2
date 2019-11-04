@@ -1,0 +1,13 @@
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.csproj.CoreCompileInputs.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.RazorAssemblyInfo.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.RazorAssemblyInfo.cs
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.AssemblyInfoInputs.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.AssemblyInfo.cs
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Produto.deps.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Produto.runtimeconfig.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Produto.runtimeconfig.dev.json
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Produto.dll
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\bin\Debug\netcoreapp2.2\Atividade_Produto.pdb
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.RazorTargetAssemblyInfo.cache
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.dll
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.pdb
