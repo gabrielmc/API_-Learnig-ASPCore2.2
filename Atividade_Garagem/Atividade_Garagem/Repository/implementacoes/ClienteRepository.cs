@@ -21,7 +21,7 @@ namespace Atividade_Garagem.Repository.implementacoes
         public async Task<Cliente> FindByName(string Name)
         {
             return await _context.Cliente
-                .Where(cli => cli.Nome.Equals(Name))
+                .Where(cli => EF.Functions.Like(cli.Nome, "%"+Name+"%"))
                 .SingleOrDefaultAsync();
         }
     }
