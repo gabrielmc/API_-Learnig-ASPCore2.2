@@ -11,3 +11,4 @@ C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_
 C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.RazorTargetAssemblyInfo.cache
 C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.dll
 C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.pdb
+C:\Users\gcerqueira\Desktop\API_-Learnig-ASPCore2.2\Atividade_Produto\Atividade_Garagem\obj\Debug\netcoreapp2.2\Atividade_Produto.csprojAssemblyReference.cache
